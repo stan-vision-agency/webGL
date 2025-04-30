@@ -26,7 +26,7 @@ reglCanvas(this, {
 
 function _numCircleInstances(Inputs){return(
 Inputs.range([20, 4000], {
-  value: 400,
+  value: 4000,
   transform: Math.log,
   step: 1,
   label: "circle instance count"
@@ -35,7 +35,7 @@ Inputs.range([20, 4000], {
 
 function _numCircleDivisions(Inputs){return(
 Inputs.range([3, 200], {
-  value: 160,
+  value: 200,
   step: 1,
   transform: Math.log,
   label: "vertices per circle"
