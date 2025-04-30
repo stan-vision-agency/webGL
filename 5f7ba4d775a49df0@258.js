@@ -50,7 +50,7 @@ function* _loop(regl,draw)
 {
   while (true) {
     regl.poll();
-    regl.clear({ color: [0.05, 0.05, 0.05, 1] });
+    regl.clear({ color: [0.05, 0.05, 0.05, 0] });
     draw();
     yield;
   }
